@@ -102,7 +102,7 @@ resource "azurerm_virtual_machine" "az-vm" {
     managed_disk_type = "Premium_LRS"
   }
 
-  os_profile {
+  os_profile_windows_config {
     computer_name  = "winhost01"
     admin_username = "exampleadmin"
     admin_password = "Password1234!"
