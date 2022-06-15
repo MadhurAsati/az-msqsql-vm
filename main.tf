@@ -58,7 +58,7 @@ resource "azurerm_network_security_rule" "MSSQLRule" {
   protocol                    = "Tcp"
   source_port_range           = "*"
   destination_port_range      = 1433
-  source_address_prefix       = "0.0.0.0.0/0"
+  source_address_prefix       = "0.0.0.0/0"
   destination_address_prefix  = "*"
   network_security_group_name = azurerm_network_security_group.az-nsg.name
 }
