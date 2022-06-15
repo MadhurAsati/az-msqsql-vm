@@ -1,0 +1,1 @@
+# az-msqsql-vm
